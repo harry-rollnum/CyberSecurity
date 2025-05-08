@@ -1,0 +1,127 @@
+ 1085  cd Desktop/
+ 1086  ls
+ 1087  clear
+ 1088  mkdir Assignment-1
+ 1089  mkdir Assignment-1 && cd Assignment-1
+ 1090  cd Assignment-1
+ 1091  mkdir logs scripts data reports
+ 1092  tree
+ 1093  cd ../..
+ 1094  cd D
+ 1095  cd Desktop
+ 1096  rm -rf Assignment-1
+ 1097  mkdir -p Assignment-1{data, scripts, logs, reports}
+ 1098  mkdir -p Assignment-1/{data, scripts, logs, reports}
+ 1099  mkdir -p Assignment-1/{data,scripts,logs,reports}
+ 1100  tree
+ 1101  clear
+ 1102  cd Assignment-1
+ 1103  tree
+ 1104  cd .
+ 1105  cd ..
+ 1106  rm -ri ./Assignment-1
+ 1107  cd Assignment-1
+ 1108  rm -ri .
+ 1109  rm -ri ./
+ 1110  rm -ri ../Assignment-1
+ 1111  ls
+ 1112  cd ..
+ 1113  rm -ri ../Assignment-1
+ 1114  ls
+ 1115  cd Assignment-1
+ 1116  clear
+ 1117  mkdir -p Assignment-1/{data,scripts,logs,reports} && cd Assignment-1
+ 1118  tree
+ 1119  clear
+ 1120  tree
+ 1121  touch /data/hello.txt /logs/today.txt reports/kamal_report scripts/hello.py
+ 1122  ls
+ 1123  touch ./data/hello.txt
+ 1124  touch data/hello.txt logs/today.txt reports/kamal_report scripts/hello.py
+ 1125  tree
+ 1126  echo -a Hello, World!
+ 1127  echo -a Hello, World! data/hello.txt
+ 1128  echo data/hello.txt Hello
+ 1129  echo data/hello.txt
+ 1130  man cat
+ 1131  cat "Hello, World data/hello.txt\n\n
+ 1132  clear
+ 1133  cat "Hello, World/ >> data/hello.txt
+ 1134  cat "Hello, World\! >> data/hello.txt
+ 1135  cat "Hello, World\!" >> data/hello.txt
+ 1136  cat data/hello.txt >> "Hello, World\!"
+ 1137  cat data/hello.txt
+ 1138  echo "Hello, World\!" >> data/hello.txt
+ 1139  cat data/hello.txt
+ 1140  clear
+ 1141  tree
+ 1142  ls -la
+ 1143  touch Hello,\ World\!
+ 1144  rm Hello,\ World\!
+ 1145  tree
+ 1146  clear
+ 1147  tree
+ 1148  cat data/hello.txt
+ 1149  echo "Kamla had an Accident Today\!" >> logs/today.txt
+ 1150  cat logs/today.txt
+ 1151  echo "Today is the First Linux Class Practical and it was too One-Sided by Sai Kumar\!" >> reports/kamal_report
+ 1152  echo "print(\"Hello, World\!\")" >> scripts/hello.py
+ 1153  cat reports/kamal_report
+ 1154  cat scripts/hello.py
+ 1155  python -V
+ 1156  python scripts/hello.py
+ 1157  clear
+ 1158  tree
+ 1159  cat data/hello.txt
+ 1160  cat logs/today.txt
+ 1161  cat reports/kamal_report
+ 1162  cat scripts/hello.py
+ 1163  echo "Kamla and her Father met with a minor accident today" > logs/today.txt
+ 1164  cat logs/today.txt
+ 1165  ls -l
+ 1166  scripts/hello.py
+ 1167  tree
+ 1168  ./scripts/hello.py
+ 1169  chmod 700 scripts/hello.py
+ 1170  ls -l
+ 1171  ls -l *
+ 1172  ./scripts/hello.py
+ 1173  python ./scripts/hello.py
+ 1174  chmod 007 scripts/hello.py
+ 1175  ./scripts/hello.py
+ 1176  python ./scripts/hello.py
+ 1177  sudo python scripts/hello.py
+ 1178  sudo ./scripts/hello.py
+ 1179  clear
+ 1180  ls -l scripts/hello.py
+ 1181  chmod 777 scripts/hello.py
+ 1182  ./scripts/hello.py
+ 1183  python ./scripts/hello.py
+ 1184  chmod 700 scripts/hello.py
+ 1185  sudo ./scripts/hello.py
+ 1186  sudo python ./scripts/hello.py
+ 1187  python ./scripts/hello.py
+ 1188  echo "#python3\nprint(\"Hello, World\!\")" > scripts/hello.py
+ 1189  echo "#\!/usr/bin/env/python3\nprint(\"Hello, World\!\")" > scripts/hello.py
+ 1190  cat scripts/hello.py
+ 1191  chmod +x scripts/hello.py
+ 1192  ls -l scripts/hello.py
+ 1193  ./scripts/hello.py
+ 1194  code scripts/hello.py
+ 1195  clear
+ 1196  ./scripts/hello.py
+ 1197  clear
+ 1198  ls -l scripts/hello.py
+ 1199  touch new.txt
+ 1200  cat >> new.txt
+ 1201  cat new.txt
+ 1202  rm new.txt
+ 1203  clear
+ 1204  touch new.txt
+ 1205  cat new.txt
+ 1206  cat > new.txt
+ 1207  cat new.txt
+ 1208  cat >> new.txt
+ 1209  cat new.txt
+ 1210  clear
+ 1211  exit
